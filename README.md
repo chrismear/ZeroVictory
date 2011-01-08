@@ -23,7 +23,7 @@ Excuses
 
 This is very hacky, assuredly buggy, written quickly, and tested only on Mac OS X 10.6.6 running on x86_64. YMMV.
 
-Basically, it checks your inbox message count whenever you move or delete messages out of it. Sometimes it fails because Mail takes a while to delete a message, even though it appears the message has already been deleted.
+Basically, it checks your inbox message count whenever you move or delete messages out of it. Sometimes it fails because Mail takes a while to delete a message, even though it appears the message has already been deleted. If that happens, you can kick it into action by fetching your mail manually; or, just wait until Mail does it automatically and get a surprise delayed reward.
 
 Credits
 -------
