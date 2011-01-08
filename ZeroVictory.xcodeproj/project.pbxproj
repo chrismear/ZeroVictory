@@ -21,9 +21,12 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		837F0DA112D7D82500BA5BA8 /* ZVInboxTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 837F0DA012D7D82500BA5BA8 /* ZVInboxTracker.m */; };
+		837F0DCF12D7E4AB00BA5BA8 /* MessageTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 837F0DCE12D7E4AB00BA5BA8 /* MessageTransfer.m */; };
+		837F0E4112D7EE2A00BA5BA8 /* ActivityViewerMailSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 837F0E4012D7EE2A00BA5BA8 /* ActivityViewerMailSound.m */; };
+		837F0E6312D7F14E00BA5BA8 /* ffvictory.wav in Resources */ = {isa = PBXBuildFile; fileRef = 837F0E5712D7F0E900BA5BA8 /* ffvictory.wav */; };
 		B0442D7D11CA441300268007 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0442D7C11CA441300268007 /* AppKit.framework */; };
 		B07F310F11E0D65300316145 /* Swizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = B07F310E11E0D65300316145 /* Swizzler.m */; };
-		B07F311211E0D65D00316145 /* MessageViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = B07F311111E0D65D00316145 /* MessageViewer.m */; };
 		B096DAC311CE4C980019A5CF /* MVMailBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = B096DAC011CE4C980019A5CF /* MVMailBundle.m */; };
 		B0BE0F2011CA30E000E58E55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 089C1672FE841209C02AAC07 /* Foundation.framework */; };
 		B0FCD88111CE55C20093744D /* Message.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FCD88011CE55C20093744D /* Message.framework */; };
@@ -31,11 +34,16 @@
 
 /* Begin PBXFileReference section */
 		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		837F0D9F12D7D82500BA5BA8 /* ZVInboxTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZVInboxTracker.h; sourceTree = "<group>"; };
+		837F0DA012D7D82500BA5BA8 /* ZVInboxTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZVInboxTracker.m; sourceTree = "<group>"; };
+		837F0DCD12D7E4AB00BA5BA8 /* MessageTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTransfer.h; sourceTree = "<group>"; };
+		837F0DCE12D7E4AB00BA5BA8 /* MessageTransfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTransfer.m; sourceTree = "<group>"; };
+		837F0E3F12D7EE2A00BA5BA8 /* ActivityViewerMailSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityViewerMailSound.h; sourceTree = "<group>"; };
+		837F0E4012D7EE2A00BA5BA8 /* ActivityViewerMailSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityViewerMailSound.m; sourceTree = "<group>"; };
+		837F0E5712D7F0E900BA5BA8 /* ffvictory.wav */ = {isa = PBXFileReference; explicitFileType = audio.wav; name = ffvictory.wav; path = Resources/ffvictory.wav; sourceTree = "<group>"; };
 		B0442D7C11CA441300268007 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		B07F310D11E0D65300316145 /* Swizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swizzler.h; sourceTree = "<group>"; };
 		B07F310E11E0D65300316145 /* Swizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Swizzler.m; sourceTree = "<group>"; };
-		B07F311011E0D65D00316145 /* MessageViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewer.h; sourceTree = "<group>"; };
-		B07F311111E0D65D00316145 /* MessageViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewer.m; sourceTree = "<group>"; };
 		B096DABF11CE4C980019A5CF /* MVMailBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVMailBundle.h; sourceTree = "<group>"; };
 		B096DAC011CE4C980019A5CF /* MVMailBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVMailBundle.m; sourceTree = "<group>"; };
 		B0C0413A121FC650002E8C76 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
@@ -63,6 +71,7 @@
 			children = (
 				B05A9B0D11C60A72002F9DA4 /* Classes */,
 				B0C0413A121FC650002E8C76 /* Resources */,
+				837F0E5712D7F0E900BA5BA8 /* ffvictory.wav */,
 				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
 				B0E275B411CE4CC5000D2AAD /* Products */,
 			);
@@ -82,13 +91,17 @@
 		B05A9B0D11C60A72002F9DA4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				837F0DCD12D7E4AB00BA5BA8 /* MessageTransfer.h */,
+				837F0DCE12D7E4AB00BA5BA8 /* MessageTransfer.m */,
 				B096DABF11CE4C980019A5CF /* MVMailBundle.h */,
 				B096DAC011CE4C980019A5CF /* MVMailBundle.m */,
-				B07F311011E0D65D00316145 /* MessageViewer.h */,
-				B07F311111E0D65D00316145 /* MessageViewer.m */,
 				B07F310D11E0D65300316145 /* Swizzler.h */,
 				B07F310E11E0D65300316145 /* Swizzler.m */,
 				B0C163C911CB82BF00B6B512 /* Prefix.pch */,
+				837F0D9F12D7D82500BA5BA8 /* ZVInboxTracker.h */,
+				837F0DA012D7D82500BA5BA8 /* ZVInboxTracker.m */,
+				837F0E3F12D7EE2A00BA5BA8 /* ActivityViewerMailSound.h */,
+				837F0E4012D7EE2A00BA5BA8 /* ActivityViewerMailSound.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -110,6 +123,7 @@
 			buildPhases = (
 				8D5B49B1048680CD000E48DA /* Sources */,
 				B0BE0F1911CA30A900E58E55 /* Frameworks */,
+				837F0E6912D7F15200BA5BA8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -150,6 +164,17 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		837F0E6912D7F15200BA5BA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837F0E6312D7F14E00BA5BA8 /* ffvictory.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXShellScriptBuildPhase section */
 		B0C20B5011DE050000A925AB /* package.sh */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -174,7 +199,9 @@
 			files = (
 				B096DAC311CE4C980019A5CF /* MVMailBundle.m in Sources */,
 				B07F310F11E0D65300316145 /* Swizzler.m in Sources */,
-				B07F311211E0D65D00316145 /* MessageViewer.m in Sources */,
+				837F0DA112D7D82500BA5BA8 /* ZVInboxTracker.m in Sources */,
+				837F0DCF12D7E4AB00BA5BA8 /* MessageTransfer.m in Sources */,
+				837F0E4112D7EE2A00BA5BA8 /* ActivityViewerMailSound.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +222,7 @@
 					x86_64,
 				);
 				BUNDLE_LOADER = /Applications/Mail.app/Contents/MacOS/Mail;
-				CURRENT_PROJECT_VERSION = 0.0.0;
+				CURRENT_PROJECT_VERSION = 0.1;
 				FRAMEWORK_SEARCH_PATHS = Frameworks;
 				GCC_PREFIX_HEADER = Classes/Prefix.pch;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;

@@ -9,7 +9,7 @@
 	<key>CFBundleName</key>
 	<string>${PRODUCT_NAME}</string>
 	<key>CFBundleIdentifier</key>
-	<string>${PRODUCT_IDENTIFIER}</string>
+	<string>com.feedmechocolate.ZeroVictory</string>
 	<key>CFBundleVersion</key>
 	<string>${CURRENT_PROJECT_VERSION}</string>
 	<key>SupportedPluginCompatibilityUUIDs</key>
