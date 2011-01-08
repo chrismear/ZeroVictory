@@ -5,14 +5,14 @@ This is a plugin for Apple Mail that plays the Final Fantasy Victory Fanfare whe
 
 Inspired by:
 
-http://twitter.com/#!/hannahnicklin/status/23471901779169280
+[http://twitter.com/#!/hannahnicklin/status/23471901779169280](http://twitter.com/#!/hannahnicklin/status/23471901779169280)
 
 Installation
 ------------
 
-Download the installer package from here:
+Download the installer package from the Downloads section:
 
-https://github.com/chrismear/ZeroVictory/downloads
+[https://github.com/chrismear/ZeroVictory/downloads](https://github.com/chrismear/ZeroVictory/downloads)
 
 and open it.
 
@@ -28,12 +28,11 @@ Basically, it checks your inbox message count whenever you move or delete messag
 Credits
 -------
 
-stl for MailBundle-Template:
-https://github.com/stl/MailBundle-Template
+stl for [MailBundle-Template](https://github.com/stl/MailBundle-Template)
 
-@hannahnicklin for the idea.
+[@hannahnicklin](http://twitter.com/#!/hannahnicklin) for the idea.
 
-Nobuo Uematsu for the tunes.
+[Nobuo Uematsu](http://na.square-enix.com/uematsu/) for the tunes.
 
 License
 -------
